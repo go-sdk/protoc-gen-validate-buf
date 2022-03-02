@@ -1,0 +1,11 @@
+version: v1
+name: buf.build/go-sdk/protoc-gen-validate
+build:
+  excludes:
+    - protoc-gen-validate
+lint:
+  use:
+    - DEFAULT
+breaking:
+  use:
+    - FILE
