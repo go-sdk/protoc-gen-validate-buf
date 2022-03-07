@@ -2,14 +2,14 @@
 
 ## Usage
 
-example for version `v0.6.6`:
+example for version `v0.6.7`:
 
 - `buf.yaml`
 
 ```yaml
 version: v1
 deps:
-  - buf.build/go-sdk/protoc-gen-validate:v0.6.6
+  - buf.build/go-sdk/protoc-gen-validate:v0.6.7
 lint:
   use:
     - DEFAULT
@@ -31,7 +31,7 @@ plugins:
     out: pb
     opt:
       - paths=source_relative
-  - remote: buf.build/go-sdk/plugins/protoc-gen-validate:v0.6.6-1
+  - remote: buf.build/go-sdk/plugins/protoc-gen-validate:v0.6.7-1
     out: pb
     opt:
       - paths=source_relative

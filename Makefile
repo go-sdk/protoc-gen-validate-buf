@@ -1,4 +1,4 @@
-VERSION := v0.6.6
+VERSION := v0.6.7
 PATCH   := 1
 
 .PHONY: init
